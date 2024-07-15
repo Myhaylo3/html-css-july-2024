@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Players</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 20px;
+        }
+        .player {
+            margin: 20px 0;
+        }
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .card {
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #fff;
+            font-size: 24px;
+            color: black;
+        }
+        .hearts, .diamonds {
+            color: red;
+        }
+        .clubs, .spades {
+            color: black;
+        }
+    </style>
+</head>
+<body>
+<div class="player">
+    <div>Player 1:</div>
+    <div class="cards">
+        <div class="card clubs">2&#9827;</div>
+        <div class="card hearts">9&#9829;</div>
+        <div class="card hearts">6&#9829;</div>
+        <div class="card diamonds">A&#9830;</div>
+        <div class="card spades">Q&#9824;</div>
+        <div class="card clubs">J&#9827;</div>
+    </div>
+</div>
+<div class="player">
+    <div>Player 2:</div>
+    <div class="cards">
+        <div class="card hearts">3&#9829;</div>
+        <div class="card clubs">A&#9827;</div>
+        <div class="card clubs">10&#9827;</div>
+        <div class="card diamonds">K&#9830;</div>
+        <div class="card spades">8&#9824;</div>
+        <div class="card hearts">3&#9829;</div>
+    </div>
+</div>
+</body>
+</html>

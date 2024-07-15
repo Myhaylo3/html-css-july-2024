@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Colors</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ccf2ff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-top: 20px;
+            color: black;
+        }
+        .color-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .color-row {
+            display: flex;
+        }
+        .color-block {
+            width: 150px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            font-weight: bold;
+            font-size: 1.2em;
+            margin: 5px;
+            box-sizing: border-box;
+            border: 1px solid #ccc;
+        }
+        .color-block span {
+            font-size: 0.7em;
+            margin-top: 5px;
+        }
+        .black { background-color: #000000; }
+        .red { background-color: #FF0000; }
+        .green { background-color: #00FF00; }
+        .blue { background-color: #0000FF; }
+        .fuchsia { background-color: #FF00FF; }
+        .white { background-color: #FFFFFF; color: black; }
+        .yellow { background-color: #FFFF00; color: black; }
+        .purple { background-color: #800080; }
+        .maroon { background-color: #800000; }
+        .olive { background-color: #808000; }
+    </style>
+</head>
+<body>
+<h1>HTML Colors</h1>
+<div class="color-grid">
+    <div class="color-row">
+        <div class="color-block black">
+            Black
+            <span>#000000</span>
+        </div>
+        <div class="color-block red">
+            Red
+            <span>#FF0000</span>
+        </div>
+        <div class="color-block green">
+            Green
+            <span>#00FF00</span>
+        </div>
+        <div class="color-block blue">
+            Blue
+            <span>#0000FF</span>
+        </div>
+        <div class="color-block fuchsia">
+            Fuchsia
+            <span>#FF00FF</span>
+        </div>
+    </div>
+    <div class="color-row">
+        <div class="color-block white">
+            White
+            <span>#FFFFFF</span>
+        </div>
+        <div class="color-block yellow">
+            Yellow
+            <span>#FFFF00</span>
+        </div>
+        <div class="color-block purple">
+            Purple
+            <span>#800080</span>
+        </div>
+        <div class="color-block maroon">
+            Maroon
+            <span>#800000</span>
+        </div>
+        <div class="color-block olive">
+            Olive
+            <span>#808000</span>
+        </div>
+    </div>
+</div>
+</body>
+</html>
